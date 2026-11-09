@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+    outline: none;
+    background-color: #424242;
+    color: white;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    align-self: center;
+}
+
+.text1, .text2 {
+    display: block;
+    align-self: center;
+    margin: 25px;
+}
+
+button {
+    height: 42px;
+    width: 200px;
+    background-color: #056C5C;
+    margin: 12px 5px;
+    font-size: 24px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.buttons1, .buttons2 {
+    align-self: center;
+}
+
+button:hover {
+    opacity: 0.75;
+}
+
+button:active {
+    opacity: 0.5;
+}
